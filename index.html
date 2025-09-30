@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockFlow | Market Intelligence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video class="herovideo" autoplay muted loop>
+        <source src="https://assets.mixkit.co/videos/47012/47012-720.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay"></div>
+
+    <!-- Candlestick Animation -->
+    <div class="candles-container">
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+    </div>
+
+    <header class="head">
+       <ul>
+            <li class="lists"><a href="index.html" style="text-decoration: none; color: white;">Home</a></li>
+            <li class="lists"><a href="About.html" style="text-decoration: none; color: white;">About us</a></li>
+            <li class="lists"><a href="membership.html" style="text-decoration: none; color: white;">Membership</a></li>
+            <li class="lists"><a href="whyus.html" style="text-decoration: none; color: white;">Why us?</a></li>
+            <li class="lists"><a href="Contactus.html" style="text-decoration: none; color: white;">Contact us</a></li>
+        </ul>
+    </header>
+
+    <div class="maintitle">
+        <h1>
+            <span class="static-text">THE STOCK MARKET IS DESIGNED TO TRANSFER MONEY TO THE </span> 
+            <span class="typing-text" id="typing-element"></span>
+        </h1>
+        <button class="discover-btn"><a href="Contactus.html" style="text-decoration: none; color: white;">Discover Now</a></button>
+    </div>
+
+    <!-- Stock Ticker -->
+    <div class="ticker-container">
+        <div class="ticker">
+            <div class="ticker-item">
+                <span class="stock-symbol">AAPL</span>
+                <span class="stock-price">$182.63</span>
+                <span class="stock-change positive">+1.24%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">MSFT</span>
+                <span class="stock-price">$337.42</span>
+                <span class="stock-change positive">+0.87%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">TSLA</span>
+                <span class="stock-price">$245.18</span>
+                <span class="stock-change negative">-2.15%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">AMZN</span>
+                <span class="stock-price">$134.95</span>
+                <span class="stock-change positive">+0.63%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">GOOGL</span>
+                <span class="stock-price">$138.21</span>
+                <span class="stock-change negative">-0.42%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">NVDA</span>
+                <span class="stock-price">$435.70</span>
+                <span class="stock-change positive">+3.28%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">META</span>
+                <span class="stock-price">$312.65</span>
+                <span class="stock-change positive">+1.75%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">BTC</span>
+                <span class="stock-price">$42,380</span>
+                <span class="stock-change positive">+2.45%</span>
+            </div>
+        </div>
+    </div>
+    <section class="learning">
+        <div class="text">
+            <h1>Learn Trading</h1>
+            <p>Learn trading from scratch to get to know advanced trading strategies.
+                Get real-time trading signals for intraday, swing, and positional trades from a SEBI-registered research
+                analyst.
+                Watch live trading streams, receive expert insights, and get 24/7 support with a dedicated relationship
+                manager to resolve your doubts and queries, available 365 days a year</p>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Real-time Signals</h3>
+                    <p>Get instant trading alerts for all market conditions</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Expert Guidance</h3>
+                    <p>Learn from SEBI-registered analysts with proven track records</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated relationship manager available year-round</p>
+                </div>
+            </div>
+        </div>
+        <div class="video2">
+            <video autoplay muted loop>
+                <source src="https://assets.mixkit.co/videos/47214/47214-720.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+                <div class="play-btn">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutus">
+        <h3>About us</h3>
+        <h1>We Are Disrupting</h1>
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Financial Market Education</h3>
+                <p>At Stock Ocean, we aspire to be India's Elite platform for education, investing, and personal finance
+                    education. Our institutional-grade courses are crafted to equip you with the essential knowledge and
+                    skills for success in the financial markets.
+
+                    Join us on your journey to financial mastery and unlock your potential today
+                </p>
+                <div class="card-glow"></div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>Research</h3>
+                <p>Our mission is to empower users on their wealth creation journey through our proprietary trading and
+                    investing strategies, both discretionary and quantitative. We provide powerful research and insights
+                    designed to enhance your decision-making and drive success in the financial markets. Let us support
+                    you
+                    with the knowledge you need to thrive
+                </p>
+                <div class="card-glow"></div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h3>Technology</h3>
+                <p>At Stock Ocean, we strive to be the elite research analyst in the country. By leveraging partnerships
+                    with financial institutions and data vendors, we enhance the investing experience for all our users.
+                    Our
+                    mission is to revolutionize recommendations through cutting-edge technology, equipping you with the
+                    insights and tools needed for successful investing. Join us as we transform the landscape of
+                    financial
+                    analysis
+                </p>
+                <div class="card-glow"></div>
+            </div>
+        </div>
+    </section>
+    <section class="mdetails">
+        <div class="card2">
+            <div class="card-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="info">
+                <h3>Phenomenal Education</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-chart-line"></i>
+                        Unlock your potential with our comprehensive course covering trading strategies. Learn about
+                        equity, futures, options, commodities, and forex trading from experienced professionals.
+                    </li>
+                    <li>
+                        <i class="fas fa-language"></i>
+                        Available in both English and Hindi, our program is designed to fit your learning style.
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        Join us and elevate your trading skills today!
+                    </li>
+                </ul>
+                <button class="join-btn">
+                    <i class="fas fa-play-circle"></i>
+                    <a href="membership.html" style="text-decoration: none; color:white;">Join Now</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div class="card-icon">
+                <i class="fas fa-bell"></i>
+            </div>
+            <div class="info">
+                <h3>Get Real-Time Buy & Sell Alerts!</h3>
+                <p class="intro">Stay ahead in the market with instant alerts on stocks, indices, and commodities.</p>
+
+                <div class="feature-group">
+                    <h4>Trade Features</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-exchange-alt"></i>
+                            Trade Types: Equity, futures, options, and commodities
+                        </li>
+                        <li>
+                            <i class="fas fa-sync-alt"></i>
+                            Trading Styles: Intraday, swing, or positional trades
+                        </li>
+                        <li>
+                            <i class="fas fa-bullseye"></i>
+                            Alerts Include: Precise entry, exit, stop loss, and targets via push notifications
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="highlight">Receive live trading and investing signals from a SEBI-registered research analyst!
+                </p>
+
+                <div class="feature-group">
+                    <h4>Strategy & Coverage</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-chess"></i>
+                            Strategies for: Intraday, swing, and positional trading
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            Markets Covered: Cash, futures & options, and commodities
+                        </li>
+                        <li>
+                            <i class="fas fa-trophy"></i>
+                            Good accuracy with an average reward-to-risk ratio of 2.5x
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="highlight">Consistent Performance.</p>
+
+                <div class="feature-group">
+                    <h4>Expert Insights</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-lightbulb"></i>
+                            Don't miss out on expert insights to enhance your trading journey!
+                        </li>
+                        <li>
+                            <i class="fas fa-brain"></i>
+                            Gain insights into the reasoning and analysis behind every trade idea from our expert
+                            research analysts. Never miss a trade again!
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="join-btn">
+                    <i class="fas fa-bolt"></i>
+                    <a href="membership.html" style="text-decoration: none; color: white;">Get Alerts Now</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div class="card-icon">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="info">
+                <h3>Investment Psychology</h3>
+                <p class="intro">Investment psychology delves into the mindset of investors, examining the emotions,
+                    behaviors, traits, ideologies, and beliefs that drive their decisions in the financial markets.</p>
+
+                <div class="feature-group">
+                    <h4>Key Insights</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-heart"></i>
+                            Understand emotional triggers that impact trading decisions
+                        </li>
+                        <li>
+                            <i class="fas fa-cogs"></i>
+                            Master behavioral patterns for better market timing
+                        </li>
+                        <li>
+                            <i class="fas fa-balance-scale"></i>
+                            Develop disciplined approaches to overcome biases
+                        </li>
+                        <li>
+                            <i class="fas fa-chart-pie"></i>
+                            Learn risk management through psychological principles
+                        </li>
+                    </ul>
+                </div>
+
+                <p>These decisions—whether to buy, sell, or hold securities and other assets—are influenced by a variety
+                    of factors stemming from an investor's overall financial behavior.</p>
+
+                <button class="join-btn">
+                    <i class="fas fa-user-graduate"></i>
+                   <a href="membership.html" style="text-decoration: none; color: white;">Master psychology</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificate">
+        <div class="certificate-header">
+            <h3>Our Credentials</h3>
+            <h1>Certifications We Hold</h1>
+            <p>Backed by industry-recognized certifications and regulatory compliance</p>
+        </div>
+
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h4>SEBI Registered</h4>
+                <p>SEBI Investor Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+                <h4>Currency Derivatives</h4>
+                <p>NISM Series I: Currency Derivatives Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h4>Corporate Registrars</h4>
+                <p>NISM Series II A: Registrars and Transfer Agents (Corporate) Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4>Compliance</h4>
+                <p>NISM Series-III-A: Securities Intermediaries Compliance (Non-Fund) Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h4>Mutual Funds</h4>
+                <p>NISM Series V A: Mutual Fund Distributors Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h4>Depository Operations</h4>
+                <p>NISM Series VI: Depository Operations Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <h4>Risk Management</h4>
+                <p>NISM Series VII: Securities Operations and Risk Management Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h4>Equity Derivatives</h4>
+                <p>NISM Series-VIII: Equity Derivatives Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <h4>Merchant Banking</h4>
+                <p>NISM Series-IX: Merchant Banking Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h4>Research Analysis</h4>
+                <p>NISM Series-XV: Research Analyst Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-wheat-alt"></i>
+                </div>
+                <h4>Commodity Derivatives</h4>
+                <p>NISM-Series-XVI: Commodity Derivatives Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h4>Portfolio Management</h4>
+                <p>NISM-Series-XXI-A: Portfolio Management Services (PMS) Distributors Certification Examination</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h4>Market Professional</h4>
+                <p>NSE Academy Certified Market Professional (NCMP) – Level 2</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h4>Technical Analysis</h4>
+                <p>NSE Technical Analysis</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+                <h4>Anti Money Laundering</h4>
+                <p>MDP – Anti Money Laundering</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h4>Bloomberg Certified</h4>
+                <p>Bloomberg Market Concepts</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-fingerprint"></i>
+                </div>
+                <h4>Forensic Investigation</h4>
+                <p>Forensic Investigation- Level 1 & 2</p>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h4>KYC Compliance</h4>
+                <p>AML – KYC and Customer Due Diligence</p>
+            </div>
+        </div>
+
+        <div class="certificate-footer">
+            <p>All certifications are maintained and updated regularly as per regulatory requirements</p>
+        </div>
+    </section>
+
+    <section class="formsection">
+        <div class="form-container">
+            <div class="msg">
+                <h5>GET IN TOUCH</h5>
+                <h2>Invest Better and Build Wealth</h2>
+                <p>We're happy to answer any questions you may have and help you determine which of our services best
+                    fit your needs.</p>
+
+                <div class="process">
+                    <h3>What Happens Next?</h3>
+                    <ul>
+                        <li>
+                            <div class="step-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>We Schedule a call at your convenience</h4>
+                                <p>Find the perfect time for your consultation</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>We Understand Your Needs</h4>
+                                <p>Deep dive into your financial goals and requirements</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>We Prepare a Proposal</h4>
+                                <p>Customized investment strategy tailored for you</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="form-header">
+                    <h3>Start Your Journey</h3>
+                    <p>Fill out the form and we'll get back to you within 24 hours</p>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <select required>
+                            <option value="" disabled selected style="color: black;">Select Country</option>
+                            <option value="india" style="color: black;">India</option>
+                            <option value="usa" style="color: black;">United States</option>
+                            <option value="uk" style="color: black;">United Kingdom</option>
+                            <option value="uae" style="color: black;">UAE</option>
+                            <option value="singapore" style="color: black;">Singapore</option>
+                            <option value="other" style="color: black;">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <div class="input-icon">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <textarea placeholder="Tell us about your investment goals and requirements..." rows="4"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Your Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

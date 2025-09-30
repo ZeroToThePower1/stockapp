@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Stock Trading Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="membership.css">
+</head>
+<body>
+    <video class="herovideo" autoplay muted loop>
+        <source src="https://assets.mixkit.co/videos/47012/47012-720.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="candles-container">
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+        <div class="candle red"></div>
+        <div class="candle"></div>
+    </div>
+
+    <header class="head">
+       <ul>
+            <li class="lists"><a href="index.html" style="text-decoration: none; color: white;">Home</a></li>
+            <li class="lists"><a href="About.html" style="text-decoration: none; color: white;">About us</a></li>
+            <li class="lists"><a href="membership.html" style="text-decoration: none; color: white;">Membership</a></li>
+            <li class="lists"><a href="whyus.html" style="text-decoration: none; color: white;">Why us?</a></li>
+            <li class="lists"><a href="Contactus.html" style="text-decoration: none; color: white;">Contact us</a></li>
+        </ul>
+    </header>
+
+    <div class="maintitle">
+        <h1>
+            <span class="static-text">Premium </span>
+            <span class="typing-text" id="typing-element"></span>
+        </h1>
+        <p style="font-size: 1.2rem; color: #cbd5e1; margin-bottom: 30px;">
+            Choose the membership that fits your trading journey
+        </p>
+    </div>
+
+    <div class="ticker-container">
+        <div class="ticker">
+            <div class="ticker-item">
+                <span class="stock-symbol">AAPL</span>
+                <span class="stock-price">$182.63</span>
+                <span class="stock-change positive">+1.24%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">MSFT</span>
+                <span class="stock-price">$337.42</span>
+                <span class="stock-change positive">+0.87%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">TSLA</span>
+                <span class="stock-price">$245.18</span>
+                <span class="stock-change negative">-2.15%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="stock-symbol">AMZN</span>
+                <span class="stock-price">$134.95</span>
+                <span class="stock-change positive">+0.63%</span>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="packages-section">
+        <div class="packages-container">
+            <div class="section-header">
+                <h2>Membership Packages</h2>
+                <p>Select the perfect plan to accelerate your trading success. All packages include our proven educational resources and community support.</p>
+            </div>
+
+            <div class="packages-grid">
+           
+                <div class="package-card">
+                    <div class="package-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Starter</h3>
+                    <div class="package-price">$97<span class="package-period">/month</span></div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Basic Course Access</li>
+                        <li><i class="fas fa-check"></i> Community Discord</li>
+                        <li><i class="fas fa-check"></i> Weekly Market Updates</li>
+                        <li><i class="fas fa-check"></i> Email Support</li>
+                        <li><i class="fas fa-times"></i> Live Trading Sessions</li>
+                        <li><i class="fas fa-times"></i> Personal Mentor</li>
+                        <li><i class="fas fa-times"></i> Advanced Tools</li>
+                    </ul>
+                </div>
+
+                <div class="package-card popular">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="package-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Professional</h3>
+                    <div class="package-price">$297<span class="package-period">/month</span></div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> All Starter Features</li>
+                        <li><i class="fas fa-check"></i> Live Trading Sessions</li>
+                        <li><i class="fas fa-check"></i> Advanced Course Modules</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Trading Algorithms</li>
+                        <li><i class="fas fa-check"></i> Risk Management Tools</li>
+                        <li><i class="fas fa-times"></i> Personal Mentor</li>
+                    </ul>
+                </div>
+
+               
+                <div class="package-card">
+                    <div class="package-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Elite</h3>
+                    <div class="package-price">$997<span class="package-period">/month</span></div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> All Professional Features</li>
+                        <li><i class="fas fa-check"></i> Personal Trading Mentor</li>
+                        <li><i class="fas fa-check"></i> Custom Strategy Development</li>
+                        <li><i class="fas fa-check"></i> 24/7 VIP Support</li>
+                        <li><i class="fas fa-check"></i> Portfolio Management</li>
+                        <li><i class="fas fa-check"></i> Exclusive Events</li>
+                        <li><i class="fas fa-check"></i> Advanced AI Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="formsection">
+        <div class="form-container">
+            <div class="msg">
+                <h5>READY TO START?</h5>
+                <h2>Begin Your Trading Journey Today</h2>
+                <p>Take the first step towards financial freedom. Our team will help you choose the right membership and get you started on your path to success.</p>
+
+                <div class="process">
+                    <h3>What Happens Next?</h3>
+                    <ul>
+                        <li>
+                            <div class="step-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>We Schedule a call at your convenience</h4>
+                                <p>Find the perfect time for your consultation</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>We Understand Your Goals</h4>
+                                <p>Deep dive into your trading objectives and experience level</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>We Recommend the Perfect Plan</h4>
+                                <p>Customized membership recommendation based on your needs</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="form-header">
+                    <h3>Get Started Now</h3>
+                    <p>Fill out the form and we'll help you choose the right membership</p>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+
+                     <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <select required>
+                            <option value="" disabled selected style="color: black;">Select Country</option>
+                            <option value="india" style="color: black;">India</option>
+                            <option value="usa" style="color: black;">United States</option>
+                            <option value="uk" style="color: black;">United Kingdom</option>
+                            <option value="uae" style="color: black;">UAE</option>
+                            <option value="singapore" style="color: black;">Singapore</option>
+                            <option value="other" style="color: black;">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <div class="input-icon">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <textarea placeholder="Tell us about your trading goals and any questions..." rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Application
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="membership.js"></script>
+</body>
+</html>
