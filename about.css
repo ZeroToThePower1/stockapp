@@ -716,7 +716,7 @@ h1 {
     }
     
     .mission-section {
-        top: 500px;
+        top: 700px;
         padding: 50px 5%;
     }
     
@@ -796,4 +796,5 @@ h1 {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+
 }
