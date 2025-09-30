@@ -403,7 +403,7 @@ h1 {
 
 .mission-section {
     position: relative;
-    top: 800px;
+    top: 900px;
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     padding: 100px 5%;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -605,7 +605,7 @@ h1 {
     }
     
     .mission-section {
-        top: 600px;
+        top: 800px;
         padding: 60px 5%;
     }
     
@@ -796,5 +796,4 @@ h1 {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
-
 }
